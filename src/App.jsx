@@ -1,7 +1,7 @@
 //importación
 import React from "react";
 import MathOperations from "./components/MathOperations";
-import Numbers from ".components/Numbers";
+import Numbers from "./components/Numbers";
 import Functions from "./components/Functions";
 import Result from "./components/Result";
 
