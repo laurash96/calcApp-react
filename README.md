@@ -1,2 +1,2 @@
 # calcApp-react
-This calculator was developed through the ReactJS+Redux+ESC Udemy course
+This calculator is the first project developed through the ReactJS+Redux+ESC Udemy course.
