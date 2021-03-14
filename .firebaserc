@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "react-app-calculator",
+    "calcapp-react": "react-app-calculator"
+  }
+}

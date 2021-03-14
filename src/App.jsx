@@ -21,7 +21,7 @@ const App = () => {
 
   const value = items.length > 0 ? items[items.length - 1] : "0";
 
-  console.log("Renderización de la App",value);
+  console.log("Renderización de la App", value);
   //lo que ejecuta la función
   return (
     <main className="react-calculator">
@@ -29,19 +29,14 @@ const App = () => {
 
       <Numbers
         onClickNumber={(number) => {
-          console.log("Click en number", number);
           setStack(`${stack}${number}`); //template literals de ES6
         }}
       ></Numbers>
 
       <Functions
-        onContentClear={() => {
-          console.log("Content Clear: ");
-          setStack("");
-        }}
+        onContentClear={() => setStack("")}
         onDelete={() => {
           if (stack.length > 0) {
-            console.log("onDelete");
             const newStack = stack.substring(0, stack.length - 1);
             setStack(newStack);
           }
@@ -49,12 +44,8 @@ const App = () => {
       ></Functions>
 
       <MathOperations
-        onClickOperation={(operation) => {
-          console.log("Operation: ", operation);
-          setStack(`${stack}${operation}`);
-        }}
+        onClickOperation={(operation) => setStack(`${stack}${operation}`)}
         onClickEqual={(equal) => {
-          console.log("Equal: ", equal);
           setStack(eval(stack).toString());
         }}
       ></MathOperations>
