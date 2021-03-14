@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/calcApp-react/static/css/main.adf1dbf0.chunk.css",
+    "main.js": "/calcApp-react/static/js/main.2eb412ea.chunk.js",
+    "main.js.map": "/calcApp-react/static/js/main.2eb412ea.chunk.js.map",
+    "runtime-main.js": "/calcApp-react/static/js/runtime-main.40f5dd65.js",
+    "runtime-main.js.map": "/calcApp-react/static/js/runtime-main.40f5dd65.js.map",
+    "static/js/2.d353c3f7.chunk.js": "/calcApp-react/static/js/2.d353c3f7.chunk.js",
+    "static/js/2.d353c3f7.chunk.js.map": "/calcApp-react/static/js/2.d353c3f7.chunk.js.map",
+    "index.html": "/calcApp-react/index.html",
+    "static/css/main.adf1dbf0.chunk.css.map": "/calcApp-react/static/css/main.adf1dbf0.chunk.css.map",
+    "static/js/2.d353c3f7.chunk.js.LICENSE.txt": "/calcApp-react/static/js/2.d353c3f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40f5dd65.js",
+    "static/js/2.d353c3f7.chunk.js",
+    "static/css/main.adf1dbf0.chunk.css",
+    "static/js/main.2eb412ea.chunk.js"
+  ]
+}
